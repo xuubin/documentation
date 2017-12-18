@@ -148,7 +148,7 @@ After the build completes, there are some additional steps that you must take in
 
    .. code-block:: console
 
-      # cp /usr/local/mysql/supported-files/mysql.server \
+      # cp /usr/local/mysql/support-files/mysql.server \
             /etc/init.d/mysql
       # chmod +x /etc/init.d/mysql
       # chkconfig --add mysql
